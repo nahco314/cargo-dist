@@ -242,7 +242,7 @@ fn generate_installer(version: &axotag::Version, release_type: ReleaseSourceType
             format!("https://axodotdev.artifacts.axodotdev.host/cargo-dist/v{version}",)
         }
         ReleaseSourceType::GitHub => {
-            format!("https://github.com/axodotdev/cargo-dist/releases/download/v{version}",)
+            format!("https://github.com/nahco314/cargo-dist/releases/download/v{version}",)
         }
     };
 
